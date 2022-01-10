@@ -2,7 +2,7 @@
   ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
   
   ## Description 
-  This app allows the user to track their budget by adding and subtracting different amounts
+  This app allows the user to track their budget by adding and subtracting different amounts either online or offline. If the user enters amounts offline, they will be shown when the user comes back online. This app uses IndexDB, Service Workers, and Web Manifest for use offline.  
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -12,9 +12,11 @@
   * [Questions](#questions)
   
   ## Installation 
-  npm start
+  After cloning the repository the user should run npm start.
   ## Usage 
-  To use this app you must enter a name for your transaction then the amount. After you do that you click either add or subtract to submit it to the graph
+  To use this app you must enter a name for your transaction then the amount. After you do that you click either add or subtract to submit it to the graph.
+  ![BudgetTracker](https://user-images.githubusercontent.com/88077451/148707834-5579eb12-f639-480a-89c1-a3a09f64ca78.png)
+
   ## License 
   This project is license under MIT
   ## Contributing 
